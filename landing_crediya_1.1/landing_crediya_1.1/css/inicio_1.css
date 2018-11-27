@@ -1,0 +1,120 @@
+		/************************************
+					GENERAL
+		*************************************/
+		
+		body{
+			margin: 0px;
+			padding: 0px;
+		}
+
+		.crdy_body{
+			margin: 0px;
+			padding: 0px;
+			overflow-x: hidden;
+			font-size:1vw;
+			position: relative;
+		} 
+
+		.crdy_body div, .crdy_body li, .crdy_body  span, .crdy_body a, .crdy_body, .crdy_body p, .crdy_body table, .crdy_body input, .crdy_body select{
+		  -webkit-font-smoothing: antialiased !important;
+		  -moz-osx-font-smoothing: grayscale !important;
+		  font-family: 'Open Sans', sans-serif !important;
+		  -webkit-overflow-scrolling: touch;
+		}
+
+		.crdy_body img{
+			width: 100%;
+		}
+		
+		.crdy_body .ctb{
+			display: table;
+			width: 100%;
+			height: 100%;
+			text-align: center;
+		}
+
+		.crdy_body .ctd{
+			vertical-align: middle;
+			display: table-cell;
+			width: 100%;
+			height: 100%;
+		}
+
+
+
+	/************************************
+		BANNER
+	*************************************/
+	.crdy_banner-simple{
+		width: 100%;
+		height: auto;
+		display: table;
+		color: #fff;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	.crdy_banner-simple .title, .crdy_banner-simple .description, .crdy_banner-simple .permalink {
+		float: left;
+		width: 100%;
+		color: #fff;
+		margin: 0px;
+		padding: 0px;
+		box-sizing: border-box;
+	}
+	
+	.crdy_banner-simple .details, .crdy_banner-simple .image{
+		display: table-cell;
+		float: none;
+		vertical-align: middle;
+		height: auto;
+	}
+
+	.crdy_banner-simple .details{
+		width: 62%;
+		padding: 2em 4em;
+		text-align: left;
+	}
+
+	.crdy_banner-simple .image{
+		width: 38%;
+	}
+
+	.crdy_banner-simple .image{
+		height: 7em;
+		background-repeat: no-repeat;
+		background-position: center top;
+		background-size: cover;
+	}
+	
+	.crdy_banner-simple .title{
+	    font-size: 2.7em;
+	    font-weight: 700;
+	    color: #ec0000;
+	    line-height: 1.3em;
+	}
+
+	.crdy_banner-simple .permalink{
+    	margin-top: 1.7em;
+    	text-align: right;
+	}
+
+	.crdy_banner-simple .description{
+		color: #333;
+		font-size: 1.6em;
+	    font-weight: 500;
+	    padding-top: 0.4em;
+	    line-height: 1.4em;
+	}
+
+	.crdy_banner-simple .permalink a{
+		text-decoration: none;
+	    color: #fff;
+	    border-radius: 2em;
+	    padding: 0.7em 3em;
+	    font-size: 1.6em;
+	    font-weight: 700;
+		background-color: #ec0000;
+		display: inline-block;
+		text-align: center;
+	}
